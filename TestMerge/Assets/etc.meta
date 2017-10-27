@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< .merge_file_a12284
 guid: cf7ed78549c78c14e8d4f76cabc7dce4
 folderAsset: yes
 timeCreated: 1509072202
+=======
+guid: 7419f1921207d514f87eabbbeae69226
+folderAsset: yes
+timeCreated: 1509072149
+>>>>>>> .merge_file_a12504
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
