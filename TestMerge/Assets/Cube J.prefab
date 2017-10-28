@@ -26,6 +26,9 @@ GameObject:
   - component: {fileID: 136210720408940632}
   - component: {fileID: 54720937419723882}
   - component: {fileID: 195114003088577356}
+  - component: {fileID: 95538718483927810}
+  - component: {fileID: 114610707040086776}
+  - component: {fileID: 114665580523368934}
   m_Layer: 0
   m_Name: Cube J
   m_TagString: Untagged
@@ -126,6 +129,74 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &95538718483927810
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118162157549416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114610707040086776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118162157549416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 153
+    i1: 229
+    i2: 64
+    i3: 52
+    i4: 108
+    i5: 83
+    i6: 196
+    i7: 212
+    i8: 186
+    i9: 5
+    i10: 159
+    i11: 242
+    i12: 107
+    i13: 48
+    i14: 216
+    i15: 120
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114665580523368934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118162157549416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1590678366, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 0}
+  m_ParameterSendBits: 0
+  param0: 
+  param1: 
+  param2: 
+  param3: 
+  param4: 
+  param5: 
 --- !u!136 &136210720408940632
 CapsuleCollider:
   m_ObjectHideFlags: 1
